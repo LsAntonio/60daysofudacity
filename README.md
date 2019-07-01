@@ -22,3 +22,10 @@ __What I learn:__
 This was a very interesting project, where we created a main database, containing a single feature with ones and zeros. Also, we implemented a function to create more databases from the main one, with one row missing per database (a total of 5000 dbs). I noticed how we select the probability distribution for the samples to be 50%. This give me the idea to plot the density distribution for the databases using different probabilities. In fact, I plot a standard DB with p = 0.5 against one with p = 0.7. This help me to understand how the probability parameter affected the creation of the databases.
 
 ![](plots/figure_2d.png)
+
+__DAY 3 [5.0%] | 60__
+* Beginning with Lesson 4: Evaluating the Privacy of a Function [videos 1 and 2]
+* Working in the initial project for this lesson.
+
+__What I learn:__
+It is interesting to see how some simple arithmetic functions, like sums, can be used to guest the identity of an individual in a database. This of course, makes necessary to address such issues. In the following day I will continue watching the lectures.
