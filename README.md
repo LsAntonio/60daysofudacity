@@ -31,8 +31,8 @@ __What I learn:__
 It is interesting to see how some simple arithmetic functions, like sums, can be used to guest the identity of an individual in a database. This of course, makes necessary to address such issues. In the following day I will continue watching the lectures.
 
 # DAY 4 [6.7%] | 60
-[1] Project: Intro Evaluating The Privacy Of A Function completed
-[2] Continuing with Lesson 4: Evaluating the Privacy of a Function [videos 3, 4, 5 and 6]
+* Project: Intro Evaluating The Privacy Of A Function completed
+* Continuing with Lesson 4: Evaluating the Privacy of a Function [videos 3, 4, 5 and 6]
 
 __What I learn:__
-In this lesson I learn that it is possible to guest some of the distribution of the data applying simple arithmetic functions. Moreover, one can guest the individuals identity in a database. This means, we must implement the necessary mechanisms to guarantee the privacy in databases.
+In this lesson I learn that it is possible to guest some of the distribution of the data applying simple arithmetic functions. Moreover, one can guest the individuals identity in a database. This means, we must implement the necessary mechanisms to guarantee the privacy in databases. _See notebook for day 4_
