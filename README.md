@@ -23,9 +23,16 @@ This was a very interesting project, where we created a main database, containin
 
 ![](plots/figure_2d.png)
 
-__DAY 3 [5.0%] | 60__
+# DAY 3 [5.0%] | 60
 * Beginning with Lesson 4: Evaluating the Privacy of a Function [videos 1 and 2]
 * Working in the initial project for this lesson.
 
 __What I learn:__
 It is interesting to see how some simple arithmetic functions, like sums, can be used to guest the identity of an individual in a database. This of course, makes necessary to address such issues. In the following day I will continue watching the lectures.
+
+# DAY 4 [6.7%] | 60
+[1] Project: Intro Evaluating The Privacy Of A Function completed
+[2] Continuing with Lesson 4: Evaluating the Privacy of a Function [videos 3, 4, 5 and 6]
+
+__What I learn:__
+In this lesson I learn that it is possible to guest some of the distribution of the data applying simple arithmetic functions. Moreover, one can guest the individuals identity in a database. This means, we must implement the necessary mechanisms to guarantee the privacy in databases.
