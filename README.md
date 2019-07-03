@@ -36,3 +36,10 @@ It is interesting to see how some simple arithmetic functions, like sums, can be
 
 __What I learn:__
 In this lesson I learn that it is possible to guest some of the distribution of the data applying simple arithmetic functions. Moreover, one can guest the individuals identity in a database. This means, we must implement the necessary mechanisms to guarantee the privacy in databases. _See notebook for day 4_
+
+# DAY 5 [8.3%] | 60
+* Evaluating The Privacy Of A Function using the iris data set.
+* Working on projects [3, 4, 5 and 6] from Lesson 4: Evaluating the Privacy of a Function.
+
+__What I learn:__
+In this day, I implemented a function to calculate the sensitivity of the iris data set. Since we were working with a single feature, I evaluated the sensitivity of each feature using the sum query. I noticed how the sensitivity is affected for each feature when applying a simple sum operation. This is very interesting and shows how data can be susceptible when applying such operations.
