@@ -59,3 +59,10 @@ In this lesson I learn about the implementation of a differencing attack over a 
 
 __What I learn:__
 I learn about two types of privacy, which are local and global privacy. In the first method, the data is altered with some type of noise. This method guarantees more protection for the users, since the data itself is been altered. On the other hand, in global privacy, the noise is added to the output of the query, instead of the data itself as with local privacy. From this context I think, that in some scenarios, global privacy could be more effective, since local privacy has an inherent resource cost.
+
+# DAY 8 [13.3%]
+* Continuing with Lesson 5 [videos 5 – 7].
+* Working on the Project: Implement Local Differential Privacy
+
+__What I learn:__
+Today I learn about two types of noise, which can be added in global privacy: Gaussian and Laplacian. From this type of noises, at the time, the Laplacian noise is more widely used, due to its relative easy calculation. Also, the formal definition of privacy implement two important factors: epsilon and delta. The former measures the difference in distributions from the original data and the data with missing entries. Meanwhile, delta represent the probability of leaking extra information. For that reason, the usual values to delta are very tiny or zero.
