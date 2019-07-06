@@ -60,7 +60,7 @@ In this lesson I learn about the implementation of a differencing attack over a 
 __What I learn:__
 I learn about two types of privacy, which are local and global privacy. In the first method, the data is altered with some type of noise. This method guarantees more protection for the users, since the data itself is been altered. On the other hand, in global privacy, the noise is added to the output of the query, instead of the data itself as with local privacy. From this context I think, that in some scenarios, global privacy could be more effective, since local privacy has an inherent resource cost.
 
-# DAY 8 [13.3%]
+# DAY 8 [13.3%] | 60
 * Continuing with Lesson 5 [videos 5 – 7].
 * Working on the Project: Implement Local Differential Privacy
 
