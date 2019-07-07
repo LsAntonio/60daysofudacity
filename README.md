@@ -66,3 +66,12 @@ I learn about two types of privacy, which are local and global privacy. In the f
 
 __What I learn:__
 Today I learn about two types of noise, which can be added in global privacy: Gaussian and Laplacian. From this type of noises, at the time, the Laplacian noise is more widely used, due to its relative easy calculation. Also, the formal definition of privacy implement two important factors: epsilon and delta. The former measures the difference in distributions from the original data and the data with missing entries. Meanwhile, delta represent the probability of leaking extra information. For that reason, the usual values to delta are very tiny or zero.
+
+# DAY 9 [15.0%] | 60* #60daysofudacity
+* Project: Implement Local Differential Privacy [completed]
+* Applying variations to the project [1] [adding different values of epsilon, plots, run more tests]
+
+__What I learn:__
+Today I learn about how the amount of data can impact the queries over a data base. More precisely, I set up an experiment, where the mean query was executed with different entries in a database. I notice that, each time the entries increase, the approximation for the real value of the mean query was more close. Meaning the differential data come more close to the real result of the query on the real data. When repeating this experiment multiples times I observed the same results. At first, with less entries, the distance in the results where big. However, the more entries, the more close the results were to the real ones. This result reaffirms the discussion on the lectures. _See notebook for day 9_
+
+![](plots/figure_9d.png)
