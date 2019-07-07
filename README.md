@@ -67,7 +67,7 @@ I learn about two types of privacy, which are local and global privacy. In the f
 __What I learn:__
 Today I learn about two types of noise, which can be added in global privacy: Gaussian and Laplacian. From this type of noises, at the time, the Laplacian noise is more widely used, due to its relative easy calculation. Also, the formal definition of privacy implement two important factors: epsilon and delta. The former measures the difference in distributions from the original data and the data with missing entries. Meanwhile, delta represent the probability of leaking extra information. For that reason, the usual values to delta are very tiny or zero.
 
-# DAY 9 [15.0%] | 60 #60daysofudacity
+# DAY 9 [15.0%] | 60
 * Project: Implement Local Differential Privacy [completed]
 * Applying variations to the project [1] [adding different values of epsilon, plots, run more tests]
 
