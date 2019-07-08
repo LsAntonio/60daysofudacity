@@ -74,3 +74,11 @@ Today I learn about two types of noise, which can be added in global privacy: Ga
 __What I learn:__
 Today I learn about how the amount of data can impact the queries over a data base. More precisely, I set up an experiment, where the mean query was executed with different entries in a database. I notice that, each time the entries increase, the approximation for the real value of the mean query was more close. Meaning the differential data come more close to the real result of the query on the real data. When repeating this experiment multiples times I observed the same results. At first, with less entries, the distance in the results where big. However, the more entries, the more close the results were to the real ones. This result reaffirms the discussion on the lectures. _See notebook for day 9_
 ![](plots/figure_9d.png)
+
+# DAY 10 [16.7%] | 60
+* Adding final variations to the Project from Lesson 5 [plot more functions]
+* Beginning to work on the final project for Lesson 5.
+
+__What I learn:__
+Today I decided to continue with the experiments from the last project. This time, I added four extra queries: cumulative sum, random sum, logarithm sum and standard deviation. After running the experiments, I noticed that using the cumulative query, one can approximate the real query on the data base with little entries. However, increasing the entries, will also increase the gap between the queries. This is also true for the random sum and logarithm sum queries. On the contrary, the standard deviation query, acts in the same fashion as the mean query. Where with more data, the results will better approximate. This help me to understand that, not all queries behave in the same ways. Therefore, when applying global privacy, one must careful consider the used mechanisms. _See notebook for day 10_
+![](plots/figure_10d.png)
