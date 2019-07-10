@@ -89,3 +89,11 @@ Today I decided to continue with the experiments from the last project. This tim
 
 __What I learn:__
 Global and local privacy are two types of privacy mechanism which can be implemented. I think that, in the case of deep learning, one could be more inclined to use global privacy, since it only affects the outputs of the model. In contrast, with local privacy, one must change the data. This process could be expensive in some settings. For example, with many images. However I think that local privacy can be applied in the context of machine learning, when cost of transforming the data is low. _See notebook for day 11_
+
+# DAY 12 [20.0%] | 60
+* Entering a Kaggle competition: Generative Dog Images. | Goal: make a submission and apply the learned on the DLND program. 
+* Creating the data set from the training data using torch vision.
+* Working in some potentially architectures.
+
+__What I learn:__
+Today I decided to take part in a Kagle competition. This competition is about creating a GAN model to generated dog images. To start, this data set is composed by a total of 20579 images. However, not all the images displays the targets (dogs). There are some samples where other labels are presents, like: persons, etc. Also, it is very interesting to see how GAN’s can be applied to different problems.
