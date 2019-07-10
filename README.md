@@ -96,4 +96,5 @@ Global and local privacy are two types of privacy mechanism which can be impleme
 * Working in some potentially architectures.
 
 __What I learn:__
+
 Today I decided to take part in a Kagle competition. This competition is about creating a GAN model to generated dog images. To start, this data set is composed by a total of 20579 images. However, not all the images displays the targets (dogs). There are some samples where other labels are presents, like: persons, etc. Also, it is very interesting to see how GAN’s can be applied to different problems.
