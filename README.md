@@ -98,3 +98,13 @@ Global and local privacy are two types of privacy mechanism which can be impleme
 __What I learn:__
 
 Today I decided to take part in a Kagle competition. This competition is about creating a GAN model to generated dog images. To start, this data set is composed by a total of 20579 images. However, not all the images displays the targets (dogs). There are some samples where other labels are presents, like: persons, etc. Also, it is very interesting to see how GAN’s can be applied to different problems.
+
+# DAY 13 [21.7%] | 60
+* Having an interesting discussion about research topics in machine learning.
+* Training a baseline GAN model to generate dog images.
+* Sending my initial submission for the Kaggle competition: Generative Dog Images.
+* Planning on future improvements for the baseline model.
+
+__What I learn:__
+Today, I learned how convolutional neural networks can be applied to recognize sign language characters. It is interesting to see how convolutional networks models can achieve great accuracy in such tasks. Regarding the training of my GAN model, I noticed how the features (filters) can play an important role at the moment to generate quality images. In fact, applying variations can lead to more natural results. However, other aspects like the number of convolutional layers can also affect the learned representations. Therefore I think a gradual approach should be considered, where in each stage, a set of layers / features are added, until get a desired result according with the available  computational resources.
+![](plots/figure_d13.png)
