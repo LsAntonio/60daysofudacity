@@ -118,4 +118,5 @@ Today, I learned how convolutional neural networks can be applied to recognize s
 * Reading the paper: Generating Diverse High-Fidelity Images with VQ-VAE-2: https://arxiv.org/pdf/1906.00446.pdf
 
 __What I learn:__
+
 Today, I learned about how to generate labels in a differentially private setting. More precisely, this technique allow us to generate labels using external classifiers. Of course, this classifiers must belong to the same category we want to obtain the labels. In this case, we have our data which we do not have the labels, and we will use these classifiers to generate our labels. However, in order to assure the privacy component, we will add some degree of epsilon (privacy leak) over the generation of the labels. This will be used as part of a Laplacian noise mechanism (we can use Gaussian too). In this way, we are obtaining the labels for our local data set without compromising the privacy of the individuals in the external data sets. Also, from the paper I read today, I learned about the VQ-VAE-2 model. This generative model is able to generate realistic images using a vector quantized mechanism.
