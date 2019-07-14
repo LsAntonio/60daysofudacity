@@ -129,3 +129,15 @@ Today, I learned about how to generate labels in a differentially private settin
 __What I learn:__
 
 Today, I learned about PATE analysis, a technique which allow us to analyze how much information is leaked out. In this context, PATE analysis will measure the degree of the epsilon parameter. However, it is also possible to apply differential privacy to the models instead. In particular, a variation of the SGD algorithm can be used. This DPSGD calculate the gradients from a random subset of the data. Then it clips the gradients using the L2 norm. Next, it averages the gradients and add noise. Here, the noise is one of the mechanism to assure privacy. Finally it moves the gradients in the opposite direction of the average gradients (which have some degree of noise). As we can see, this algorithm can be used to train a model at the same time that maintains the user privacy.
+
+# DAY 16 [26.7%] | 60
+* Adding improvements to the baseline GAN model for the Kaggle competition: Generative Dog Images.
+* Training the new baseline model.
+* Sending submission.
+* Obtaining better MiFID score: from _128.21376_ to __114.34636.__
+
+__What I learn:__
+
+Today, I put into practice the techniques I learned in the DLND program about GANS. This allowed me to improve my initial baseline model, which is developed in Pytorch. The main idea was varying the complexity of the kernels (filters) in the model. Since the kernels will increase the model’s complexity, thus allowing the model to learn better representations. Also, in order to gain better stability during training, I applied diverse regularization techniques. Finally, I learned about a variation for the FID score called MiFID. This metric considers the model’s memorization. This will allow to evaluate the model not only to generate images, but also the diversity of the generated images.
+
+![](plots/figure_d16.png)
