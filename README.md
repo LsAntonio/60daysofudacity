@@ -141,3 +141,13 @@ __What I learn:__
 Today, I put into practice the techniques I learned in the DLND program about GANS. This allowed me to improve my initial baseline model, which is developed in Pytorch. The main idea was varying the complexity of the kernels (filters) in the model. Since the kernels will increase the model’s complexity, thus allowing the model to learn better representations. Also, in order to gain better stability during training, I applied diverse regularization techniques. Finally, I learned about a variation for the FID score called MiFID. This metric considers the model’s memorization. This will allow to evaluate the model not only to generate images, but also the diversity of the generated images.
 
 ![](plots/figure_d16.png)
+
+# DAY 17 [28.3%] | 60
+* Continuing with Lesson 6.
+* Studying lectures 7 and 8 .
+* Working on the final project for Lesson 6, using a data set.
+* Watching the webinar from OpenMined: https://www.youtube.com/watch?v=9D_jxOMZmRI
+
+__What I learn:__
+
+Today I learned more aspects about differential privacy. In particular, DP, interacts with other technologies such as encryption. Also DP allow us to learn useful features without compromising the user privacy. In this context, the different techniques (algorithms) usually adds some kind of noise to the output model or the data itself. Also, open source projects, have a tremendous impact in the development of different technologies, as seen in the webinar. Contribution is an important factor as well, since there are many opportunities in which one can contribute to projects. Finally, feedback is an important component inside the development of open source software. 
