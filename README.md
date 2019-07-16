@@ -151,3 +151,11 @@ Today, I put into practice the techniques I learned in the DLND program about GA
 __What I learn:__
 
 Today I learned more aspects about differential privacy. In particular, DP, interacts with other technologies such as encryption. Also DP allow us to learn useful features without compromising the user privacy. In this context, the different techniques (algorithms) usually adds some kind of noise to the output model or the data itself. Also, open source projects, have a tremendous impact in the development of different technologies, as seen in the webinar. Contribution is an important factor as well, since there are many opportunities in which one can contribute to projects. Finally, feedback is an important component inside the development of open source software. 
+
+# DAY 18 [30.0%] | 60
+* Recap from Lesson 6.
+* Continuing working on the final project for Lesson 6: Defining seven phases, which covers all the content from the Lesson.
+
+__What I learn:__
+
+Today I take a recap from Lesson 6. I learned about a mechanism to generate labels using noise. In this case, two types of noise were described: Laplacian and Gaussian. Also, one can combine this technique with other classifiers. For example, if we have an unlabeled data set, we can use external data to generate labels. However, in order to maintain privacy, we ask the data owners to generate the labels from our data. Of course, the data must come from the same domain. In this way, we can generate labels without compromising the data privacy. We can also evaluate the generated labels in terms of the degree of epsilon (privacy leak) using PATE analysis. Finally, I am working in a project which involve all the material from the Lesson. Concretely, I will generate labels for a data set using the learned techniques.
