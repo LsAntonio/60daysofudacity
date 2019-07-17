@@ -159,3 +159,16 @@ Today I learned more aspects about differential privacy. In particular, DP, inte
 __What I learn:__
 
 Today I take a recap from Lesson 6. I learned about a mechanism to generate labels using noise. In this case, two types of noise were described: Laplacian and Gaussian. Also, one can combine this technique with other classifiers. For example, if we have an unlabeled data set, we can use external data to generate labels. However, in order to maintain privacy, we ask the data owners to generate the labels from our data. Of course, the data must come from the same domain. In this way, we can generate labels without compromising the data privacy. We can also evaluate the generated labels in terms of the degree of epsilon (privacy leak) using PATE analysis. Finally, I am working in a project which involve all the material from the Lesson. Concretely, I will generate labels for a data set using the learned techniques.
+
+# DAY 19 [31.7%] | 60
+* Continuing working on the final project for Lesson 6: Phase One: The data set.
+* Improving remote and local data simulation.
+* Adding plots for the data.
+
+__What I learn:__
+
+Today I implemented the concepts of remote and local data sets discussed in Lessons 6. In this setting, we have a local data set for which we do not have labels. Therefore, we would like to use a set of remote data sets in order to train a local model. However, we cannot have access to these data sets directly. For example, the data sets can contain sensible data from patient records. Thus, it is important to define a safe procedure to access them. This will be addressed in the next phases. Now, back to the remote and local data sets, I selected the digits data sets as our main data. Then, I randomly divided the data into eleven blocks. The first ten will correspond to the remote data sets, meanwhile, the last one will be our local data. Since we will need a structure, I used dictionaries. Finally, I built a plot function to see the data.
+
+![](plots/figure_19ad.png)
+
+![](plots/figure_19bd.png)
