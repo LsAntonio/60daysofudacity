@@ -172,3 +172,12 @@ Today I implemented the concepts of remote and local data sets discussed in Less
 ![](plots/figure_19ad.png)
 
 ![](plots/figure_19bd.png)
+
+# DAY 20 [33.3%] | 60
+* Continuing working on the final project for Lesson 6: Phase Two: Defining external classifiers.
+* Selecting a set of ten classifiers to train on the remote data sets.
+* Training external classifiers.
+
+# What I learn:
+
+Continuing with the concepts from Lesson 6: “...since we cannot access the remote data sets directly, we can instead use trained classifiers from those data sets to label our local data set.”. In order to get more diversity, different classifiers were used. Also, since we previously divided the data into 11 blocks, we have little data. Therefore techniques such as: cross validation will not be used. Instead, we will use the classifiers with their define set of hyper parameters. Then the training process began. In general, I observed that some models easily get a high accuracy, meanwhile others get a low one. However, we cannot directly conclude about what model are the best here, due to the lack of hyper parameter tuning. Also, we would like to keep in mind the famous No Free Lunch Theorem.
