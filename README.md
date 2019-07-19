@@ -181,3 +181,13 @@ Today I implemented the concepts of remote and local data sets discussed in Less
 # What I learn:
 
 Continuing with the concepts from Lesson 6: “...since we cannot access the remote data sets directly, we can instead use trained classifiers from those data sets to label our local data set.”. In order to get more diversity, different classifiers were used. Also, since we previously divided the data into 11 blocks, we have little data. Therefore techniques such as: cross validation will not be used. Instead, we will use the classifiers with their define set of hyper parameters. Then the training process began. In general, I observed that some models easily get a high accuracy, meanwhile others get a low one. However, we cannot directly conclude about what model are the best here, due to the lack of hyper parameter tuning. Also, we would like to keep in mind the famous No Free Lunch Theorem.
+
+# DAY 21 [35.0%] | 60
+* Continuing working on the final project for Lesson 6: Phase Three: Generate predictions to our local data set.
+* Generating predictions to our local data set using the classifiers.
+* Applying Laplacian noise with epsilon = 0.1 to the new generated labels.
+
+__What I learn:__
+
+Continuing with the implementation of the concepts from Lesson 6: “… we may use trained classifiers on remote data sets to labels ours. However, even with this mechanism, there are still ways in which we can guess the real values from the external data sets using the classifiers parameter’s”. Indeed, as we have seen in past lessons, it is totally possible to use some queries over the data sets to break privacy. In this case, the same can be applied to the classifiers (algorithms). In particular, if we use neural networks, we can use the raw gradients to obtain such information. Hopefully, we can add a noise degree over the label generation process. To be more precisely, this noise will represent the value of privacy we want to keep. As seen in the literature, this value correspond to the epsilon parameter. Now, regarding the noise, we can use different functions to generate it. However, as discussed in class, the more efficient, in terms of computationally cost and implementation is the Laplacian noise. Therefore we will apply the Laplacian noise, also, we set the value to 0.1.
+![](plots/figure_21d.png)
