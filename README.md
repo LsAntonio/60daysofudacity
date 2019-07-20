@@ -191,3 +191,14 @@ __What I learn:__
 
 Continuing with the implementation of the concepts from Lesson 6: “… we may use trained classifiers on remote data sets to labels ours. However, even with this mechanism, there are still ways in which we can guess the real values from the external data sets using the classifiers parameter’s”. Indeed, as we have seen in past lessons, it is totally possible to use some queries over the data sets to break privacy. In this case, the same can be applied to the classifiers (algorithms). In particular, if we use neural networks, we can use the raw gradients to obtain such information. Hopefully, we can add a noise degree over the label generation process. To be more precisely, this noise will represent the value of privacy we want to keep. As seen in the literature, this value correspond to the epsilon parameter. Now, regarding the noise, we can use different functions to generate it. However, as discussed in class, the more efficient, in terms of computationally cost and implementation is the Laplacian noise. Therefore we will apply the Laplacian noise, also, we set the value to 0.1.
 ![](plots/figure_21d.png)
+
+# DAY 22 [36.7%] | 60
+
+* Continuing working on the final project for Lesson 6: Phase Four: Defining a local model.
+* Defining a pytorch model to be used locally.
+* Training the local model on the generated data.
+
+__What I learn:__
+
+Continuing with the implementation of the concepts from Lesson 6: “… and then, after we have our local labels generated with differential privacy, now, we can train our local model, without compromising the the remote data sets.”. Therefore, today, I defined our local model in Pytorch. For this data set, I implemented a shallow network. Then, I proceed with the training process. However, instead of using the real labels from the data set, I use the generated labels. It is interesting to note, how these labels have been generated. In a sense, the are directly dependent on the external classifiers and the data sets. However, the differential mechanism applied guarantees that we can not break the privacy of the remote data sets. Furthermore, we have now an extra parameter which controls the degree of privacy. Of course, one can argue that, if the same person is carrying out the analysis, this person would also have access to the epsilon value. This discussion also arises in the privacy book: “The Algorithmic Foundations of Differential Privacy”. Hopeful, as one can guest, there are different forms in which we can assure the anonymity of the epsilon value. Therefore we can still guarantee privacy.
+![](plots/figure_22d.png)
