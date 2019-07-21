@@ -203,3 +203,11 @@ __What I learn:__
 Continuing with the implementation of the concepts from Lesson 6: “… and then, after we have our local labels generated with differential privacy, now, we can train our local model, without compromising the the remote data sets.”. Therefore, today, I defined our local model in Pytorch. For this data set, I implemented a shallow network. Then, I proceed with the training process. However, instead of using the real labels from the data set, I use the generated labels. It is interesting to note, how these labels have been generated. In a sense, the are directly dependent on the external classifiers and the data sets. However, the differential mechanism applied guarantees that we can not break the privacy of the remote data sets. Furthermore, we have now an extra parameter which controls the degree of privacy. Of course, one can argue that, if the same person is carrying out the analysis, this person would also have access to the epsilon value. This discussion also arises in the privacy book: “The Algorithmic Foundations of Differential Privacy”. Hopeful, as one can guest, there are different forms in which we can assure the anonymity of the epsilon value. Therefore we can still guarantee privacy.
 
 ![](plots/figure_22d.png)
+
+# DAY 23 [38.3%] | 60
+* Meeting with the sg_latin group.
+* Reading the paper: Improved Techniques for Training GANs: https://arxiv.org/pdf/1606.03498.pdf
+
+__What I learned:__
+
+Today,  we discussed about the current projects we have in the sg_latin group.  Also, we proposed new improvements to apply over the current project.  This project have the aim to apply differential privacy techniques.  Also, I learn about techniques that can be used to improve the  performance of a GAN model, thus, allowing the model to converge much  faster. This techniques are: feature matching, mini batch  discrimination, historical averaging, one sided label smoothing and  virtual batch normalization. Each technique address a particular element  from the training process. Finally, applying these techniques have a  positive impact over the quality of the generated images. Thanks to @Casimiro.Rocha @Fustincho @Ricardo Pretelt @Hector Budiel Echevarria @susyjam for made the meeting possible today.
