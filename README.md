@@ -211,3 +211,11 @@ Continuing with the implementation of the concepts from Lesson 6: “… and the
 __What I learned:__
 
 Today,  we discussed about the current projects we have in the sg_latin group.  Also, we proposed new improvements to apply over the current project.  This project have the aim to apply differential privacy techniques.  Also, I learn about techniques that can be used to improve the  performance of a GAN model, thus, allowing the model to converge much  faster. This techniques are: feature matching, mini batch  discrimination, historical averaging, one sided label smoothing and  virtual batch normalization. Each technique address a particular element  from the training process. Finally, applying these techniques have a  positive impact over the quality of the generated images. Thanks to our classmates from the sg_latin group for made the meeting possible today.
+
+# DAY 24 [40.0%] | 60*
+* Reading the paper: A Unified Approach to Interpreting Model Predictions: http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf
+* Implement a pytorch model, alongside the training function for the sg_latin project.
+
+__What I learn:__
+
+Today, I learned about an interesting research topic in deep learning: interpretability. This term is refereed to the model explaining capacity. For example, in a medical setting, alongside accuracy, it is also desirable to know the underlying mechanism that lead the classification criteria of the model. Also,  there are a relationship between complexity and explanation. For example, very complex models like deep networks are more difficult to explain, due to the many parameters they have. In contrast, more simple models, are easier to explain. Therefore there is a trade-off between complexity and explanation. This trade-off must be taken into consideration when dealing with applications that require additional explanations from the model. Also, I contribute to the sg_latin project, which main goal is to apply differential privacy. Concretely, my contributions were focused on implement a pytorch model alongside the training and evaluation process, using the provided code: https://github.com/rick1612/House-Price.
