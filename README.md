@@ -219,3 +219,5 @@ Today,  we discussed about the current projects we have in the sg_latin group.  
 __What I learn:__
 
 Today, I learned about an interesting research topic in deep learning: interpretability. This term is refereed to the model explaining capacity. For example, in a medical setting, alongside accuracy, it is also desirable to know the underlying mechanism that lead the classification criteria of the model. Also,  there are a relationship between complexity and explanation. For example, very complex models like deep networks are more difficult to explain, due to the many parameters they have. In contrast, more simple models, are easier to explain. Therefore there is a trade-off between complexity and explanation. This trade-off must be taken into consideration when dealing with applications that require additional explanations from the model. Also, I contribute to the sg_latin project, which main goal is to apply differential privacy. Concretely, my contributions were focused on implement a pytorch model alongside the training and evaluation process, using the provided code: https://github.com/rick1612/House-Price.
+
+![](plots/figure_24d.png)
