@@ -212,7 +212,7 @@ __What I learned:__
 
 Today,  we discussed about the current projects we have in the sg_latin group.  Also, we proposed new improvements to apply over the current project.  This project have the aim to apply differential privacy techniques.  Also, I learn about techniques that can be used to improve the  performance of a GAN model, thus, allowing the model to converge much  faster. This techniques are: feature matching, mini batch  discrimination, historical averaging, one sided label smoothing and  virtual batch normalization. Each technique address a particular element  from the training process. Finally, applying these techniques have a  positive impact over the quality of the generated images. Thanks to our classmates from the sg_latin group for made the meeting possible today.
 
-# DAY 24 [40.0%] | 60*
+# DAY 24 [40.0%] | 60
 * Reading the paper: A Unified Approach to Interpreting Model Predictions: http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf
 * Implement a pytorch model, alongside the training function for the sg_latin project.
 
