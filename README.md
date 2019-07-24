@@ -221,3 +221,16 @@ __What I learn:__
 Today, I learned about an interesting research topic in deep learning: interpretability. This term is refereed to the model explaining capacity. For example, in a medical setting, alongside accuracy, it is also desirable to know the underlying mechanism that lead the classification criteria of the model. Also,  there are a relationship between complexity and explanation. For example, very complex models like deep networks are more difficult to explain, due to the many parameters they have. In contrast, more simple models, are easier to explain. Therefore there is a trade-off between complexity and explanation. This trade-off must be taken into consideration when dealing with applications that require additional explanations from the model. Also, I contribute to the sg_latin project, which main goal is to apply differential privacy. Concretely, my contributions were focused on implement a pytorch model alongside the training and evaluation process, using the provided code: https://github.com/rick1612/House-Price.
 
 ![](plots/figure_24d.png)
+
+# DAY 25 [41.7%] | 60
+* Continuing working on the final project for Lesson 6: Phase Five: Varying epsilon parameter.
+* Defining a range of epsilons values.
+* Generating the labels.
+* Training the local model on the generated data.
+* Compare accuracy over a single run vs average (20 times).
+
+__What I learn:__
+
+Today I design an experiment involving variations to the the epsilon parameter. Basically, I define a set of epsilon values between [1e-05, 10e+3]. Next, I generate the labels using each value from epsilon, then I trained a shallow model using the generated labels per each epsilon. Next, I compared the accuracy using a single run (training only once) versus an average run (repeating the training process 20 times). As we can see in the figure, each time the values of epsilon increased, the model approaches more to the real labels distribution, which mean, we are leaking a lot of information. On the contrary, using small values of epsilon, guarantees the privacy over the original data. Also, one interesting behavior comes from our model’s  accuracy. Where the epsilon variations have a major impact over the real labels, whereas for the generated labels have a sightly minor impact. Finally, for both cases (single versus average) we can see that if epsilon is bigger than 1, we begin to leak a lot of information.
+
+![](plots/figure_25d.png)
