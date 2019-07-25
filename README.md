@@ -234,3 +234,16 @@ __What I learn:__
 Today I design an experiment involving variations to the the epsilon parameter. Basically, I define a set of epsilon values between [1e-05, 10e+3]. Next, I generate the labels using each value from epsilon, then I trained a shallow model using the generated labels per each epsilon. Next, I compared the accuracy using a single run (training only once) versus an average run (repeating the training process 20 times). As we can see in the figure, each time the values of epsilon increased, the model approaches more to the real labels distribution, which mean, we are leaking a lot of information. On the contrary, using small values of epsilon, guarantees the privacy over the original data. Also, one interesting behavior comes from our model’s  accuracy. Where the epsilon variations have a major impact over the real labels, whereas for the generated labels have a sightly minor impact. Finally, for both cases (single versus average) we can see that if epsilon is bigger than 1, we begin to leak a lot of information.
 
 ![](plots/figure_25d.png)
+
+# DAY 26 [43.3%] | 60
+* Continuing working on the final project for Lesson 6: Phase Six: Training classifiers multiple times
+* Defining a range of epsilons values.
+* Training classifiers multiple times (10 times). Generating the new labels.
+* Training the local model on the generated data multiple times (20 times)
+* Compare accuracy over a single run vs average.
+
+__What I learn:__
+
+Today, I continue working with some variations to the project. Last time, I changed the epsilon values, the obtained results suggested that, each increase in epsilon will allow our model to approach to the real data distribution. Thus, we would leak information. At the same time, we were able to obtain an acceptable accuracy. However, there is another factor which could affect the privacy parameter. I am referring to the external classifiers. In this setting, the classifiers were acting as teachers. However, they are no free of variations. In fact, if we consider the inherent stochasticity present in their training process, we then can hypothesize that, changes in those parameters, could affect the generating labels. Therefore, I decide to train ten times the external classifiers. Also I trained the local model multiple times per each classifier. The obtained results, looks very similar to the last experiment. In fact, there are little variations. Therefore, even if the external classifiers have different variations, the epsilon parameter still guarantees a solid privacy.
+
+![](plots/figure_26d.png)
