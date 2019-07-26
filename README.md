@@ -247,3 +247,16 @@ __What I learn:__
 Today, I continue working with some variations to the project. Last time, I changed the epsilon values, the obtained results suggested that, each increase in epsilon will allow our model to approach to the real data distribution. Thus, we would leak information. At the same time, we were able to obtain an acceptable accuracy. However, there is another factor which could affect the privacy parameter. I am referring to the external classifiers. In this setting, the classifiers were acting as teachers. However, they are no free of variations. In fact, if we consider the inherent stochasticity present in their training process, we then can hypothesize that, changes in those parameters, could affect the generating labels. Therefore, I decide to train ten times the external classifiers. Also I trained the local model multiple times per each classifier. The obtained results, looks very similar to the last experiment. In fact, there are little variations. Therefore, even if the external classifiers have different variations, the epsilon parameter still guarantees a solid privacy.
 
 ![](plots/figure_26d.png)
+
+# DAY 27 [45.0%] | 60
+
+* Finishing working on the final project for Lesson 6: Phase Seven: Applying PATE Analysis to the generated labels.
+* Analyzing the results when varying delta parameter.
+* Analyzing the results when changing values from the labels.
+* Analyzing the results when changing the number of teachers (external classifiers).
+
+__What I learn:__
+
+Today, I analyzed the generated labels from the project using the PATE framework. With this analysis, I was able to see how the changes in the generated labels affect the epsilon value. For example, if we change the outputs from the predictions to a single class, this will be reflected in the epsilon value returned by the PATE analysis. However, I observed a different behavior. To be more concretely, each time I changed the label values, the PATE results remained the same. This was maintained, independent of the type of variations to the generated labels. At first, I suspected that the problem could reside in the data set size. However, the Lessons seemed to contradict this. In fact, the results from the Lesson, shown how with tiny variations in the labels, the PATE results change. This behavior was present, independently of the data size. Finally, I was able to understand why the PATE results did not change when the labels changed. This behavior was not related with the data size, but with the teachers number. It seems that, using a small number of teachers (e.g. ten) had a small impact over the generated labels. Thus, the PATE results did not have a significative change. On the contrary, if we use a large teacher number (e.g. 100), this will mainly affect the generated labels, leading to reflect the changes in the PATE results, when the labels changes.
+
+
