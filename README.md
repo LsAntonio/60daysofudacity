@@ -259,4 +259,13 @@ __What I learn:__
 
 Today, I analyzed the generated labels from the project using the PATE framework. With this analysis, I was able to see how the changes in the generated labels affect the epsilon value. For example, if we change the outputs from the predictions to a single class, this will be reflected in the epsilon value returned by the PATE analysis. However, I observed a different behavior. To be more concretely, each time I changed the label values, the PATE results remained the same. This was maintained, independent of the type of variations to the generated labels. At first, I suspected that the problem could reside in the data set size. However, the Lessons seemed to contradict this. In fact, the results from the Lesson, shown how with tiny variations in the labels, the PATE results change. This behavior was present, independently of the data size. Finally, I was able to understand why the PATE results did not change when the labels changed. This behavior was not related with the data size, but with the teachers number. It seems that, using a small number of teachers (e.g. ten) had a small impact over the generated labels. Thus, the PATE results did not have a significative change. On the contrary, if we use a large teacher number (e.g. 100), this will mainly affect the generated labels, leading to reflect the changes in the PATE results, when the labels changes.
 
+# DAY 28 [46.7%] | 60
 
+* Creating a notebook for the project in Lesson 6 (seven phases).
+* Adding Phase 1 – 2 to the notebook.
+* Working in an initial implementation for the sg_project-t-shirt using transfer style.
+* Applying to a Openmined project.
+
+__What I learn:__
+
+Today, I begin to put together the project from Lesson 6 into a single notebook. Also, I am working in an initial implementation for the sg_project-t-shirt project. One initial approach would be using a pre trained model, like a VGG16 model. The interesting thing, laid in which layers to select. Since a VGG16 have different layers. In particular, to transfer style, the convolutional layers are the most important. This, due the fact, that, those layers have learned a representation of the data. Also, if we considered the large amount of data used to train these models. We obtain a very robust representation to apply transfer style. 
