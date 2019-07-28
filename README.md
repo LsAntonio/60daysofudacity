@@ -269,3 +269,15 @@ Today, I analyzed the generated labels from the project using the PATE framework
 __What I learn:__
 
 Today, I begin to put together the project from Lesson 6 into a single notebook. Also, I am working in an initial implementation for the sg_project-t-shirt project. One initial approach would be using a pre trained model, like a VGG16 model. The interesting thing, laid in which layers to select. Since a VGG16 have different layers. In particular, to transfer style, the convolutional layers are the most important. This, due the fact, that, those layers have learned a representation of the data. Also, if we considered the large amount of data used to train these models. We obtain a very robust representation to apply transfer style. 
+
+# DAY 29 [48.3%] | 60
+* Adding phases 3 – 4 to the project notebook (completed project from Lesson 6).
+* Selecting a trained architecture for the project sg_project-t-shirt using transfer learning.
+* Training the desired architecture.
+* Submitting result image to the project sg_project-t-shirt
+
+__What I learn:__
+
+Today I work in the  sg_project-t-shirt, where we must generate an image. For this problem, we can apply two approaches. The first one involve the use of a pre trained model to apply the features of one image into another. This is called transfer style. As its name implies, we use two images, namely, a target and a content image. In this approach, we use a model to transfer the style from the content image into the target one. This is achieved thanks to the learned representations from the model. In particular, since we are dealing with images, convolutional layers are a good choice. On the other hand, we could also use generative models too. In this occasion I applied style transfer. But I will try generative models next.
+
+![](plots/figure_29d.png)
