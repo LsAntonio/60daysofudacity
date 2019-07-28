@@ -281,3 +281,13 @@ __What I learn:__
 Today I work in the  sg_project-t-shirt, where we must generate an image. For this problem, we can apply two approaches. The first one involve the use of a pre trained model to apply the features of one image into another. This is called transfer style. As its name implies, we use two images, namely, a target and a content image. In this approach, we use a model to transfer the style from the content image into the target one. This is achieved thanks to the learned representations from the model. In particular, since we are dealing with images, convolutional layers are a good choice. On the other hand, we could also use generative models too. In this occasion I applied style transfer. But I will try generative models next.
 
 ![](plots/figure_29d.png)
+
+# DAY 30 [50.0%] | 60
+* Meeting with the reading_paper_discuss group.
+* Working in an initial GAN implementation for the sg_project-t-shirt project.
+
+__What I learn:__
+
+Today I discussed interesting topics regarding GANS. GANS are generative models, which can be used to generate data. This model uses a generator and discriminator. Where, during training the generator feeds a fake image into the discriminator. Then, the discriminator have to recognize the fake image from the real one. In this way, each time the discriminator improves, the generator is forced to improve as well. The same is for the generator, which pushes the discriminator to get better at distinguish the real images from the fakes ones.
+
+![](plots/figure_30d.png)
