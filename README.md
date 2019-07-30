@@ -291,3 +291,16 @@ __What I learn:__
 Today I discussed interesting topics regarding GANS. GANS are generative models, which can be used to generate data. This model uses a generator and discriminator. Where, during training the generator feeds a fake image into the discriminator. Then, the discriminator have to recognize the fake image from the real one. In this way, each time the discriminator improves, the generator is forced to improve as well. The same is for the generator, which pushes the discriminator to get better at distinguish the real images from the fakes ones.
 
 ![](plots/figure_30d.png)
+
+# DAY 31 [51.7%] | 60
+* Adding phases 5 – 6 to the project notebook (completed project from Lesson 6)
+* Working in an  implementation for the sg_project-t-shirt using generative models.
+* Defining the generator architecture.
+* Defining the discriminator architecture.
+* Training the model.
+
+__What I learn:__
+
+Today I work in the sg_project-t-shirt project. Since I implemented style transfer, this time I decide to implemented a generative model. In particular I used a generator and discriminator networks. These networks are composed by convolutional layers. However, the models are different at their last layers. For the generator, it have a convolutional layer, since we are generating images. Meanwhile, the discriminator have a single output. We use this output to evaluate the the generated images from the generator. Finally I was able to generate some initial images.
+
+![](plots/figure_31d.png)
