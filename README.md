@@ -304,3 +304,16 @@ __What I learn:__
 Today I work in the sg_project-t-shirt project. Since I implemented style transfer, this time I decide to implemented a generative model. In particular I used a generator and discriminator networks. These networks are composed by convolutional layers. However, the models are different at their last layers. For the generator, it have a convolutional layer, since we are generating images. Meanwhile, the discriminator have a single output. We use this output to evaluate the the generated images from the generator. Finally I was able to generate some initial images.
 
 ![](plots/figure_31d.png)
+
+# DAY 32 [53.3%] | 60
+* Continuing working on the generative model fro the sg_project-t-shirt.
+* Applying improved techniques to fast convergence.
+* Adding final phase 7 to the project notebook (completed project from Lesson 6).
+* Drawing final conclusions, uploaded complete notebook.
+* Beginning with Lesson 7: Federated Learning: videos 1 – 3
+
+__What I learn:__
+
+Today I learn about Federated learning. Federated learning is a technique which allow us to train models without compromising the privacy of the user. This technique, uses the local data from users without exposing the data. Therefore, we can train models in a distributive fashion. For example, we can train a text predictor on the user’s phone without accessing the user’s data. This represent a huge advantage, since: (1) we are able to train the model on remote data and (2) the user will get a more precise model. Once we trained the remote model, we can upload the new model to the server. Then all the users will use the new model. Also, I uploaded the complete notebook for the project in Lesson 6. Finally I work in some improvements for the sg_project-t-shirt. These allow me to generate more diverse images.
+
+![](plots/figure_32d.png)
