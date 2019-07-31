@@ -317,3 +317,15 @@ __What I learn:__
 Today I learn about Federated learning. Federated learning is a technique which allow us to train models without compromising the privacy of the user. This technique, uses the local data from users without exposing the data. Therefore, we can train models in a distributive fashion. For example, we can train a text predictor on the user’s phone without accessing the user’s data. This represent a huge advantage, since: (1) we are able to train the model on remote data and (2) the user will get a more precise model. Once we trained the remote model, we can upload the new model to the server. Then all the users will use the new model. Also, I uploaded the complete notebook for the project in Lesson 6. Finally I work in some improvements for the sg_project-t-shirt. These allow me to generate more diverse images.
 
 ![](plots/figure_32d.png)
+
+# DAY 33 [55.0%] | 60
+* Continuing with Lesson 7.
+* Studying lectures: 4 – 7.
+* Finished the training of the generative model for the sg_project-t-shirt project.
+* Upload a set of images for the sg_project-t-shirt project.
+
+__What I learn:__
+
+Today I learned about the PySyft library. PySyft is a open source project developed by Openmined. This library allow us to train models in parallel. Since we are working in a distributed environment, we need to define workers. A worker is an object (remote) which will be used to communicate with the main server. This worker, can store different data. More precisely, it helps us to represent tensor objects. At the same time, thanks to the PySyft abstraction, we are able to perform normal tensor operations. For example, we can add, subtract, divide, etc. However, we are not interacting directly with the data. Also, the workers have different attributes which allow us to inspect their values, retrieve the data, check the worker location, etc. Additionally, I completed the sg_project-t-shirt project using a generative model. I used different techniques during the training phase. The results can be displayed in the figure.
+
+![](plots/t_shirt_project.png)
