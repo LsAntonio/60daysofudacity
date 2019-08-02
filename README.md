@@ -329,3 +329,15 @@ __What I learn:__
 Today I learned about the PySyft library. PySyft is a open source project developed by Openmined. This library allow us to train models in parallel. Since we are working in a distributed environment, we need to define workers. A worker is an object (remote) which will be used to communicate with the main server. This worker, can store different data. More precisely, it helps us to represent tensor objects. At the same time, thanks to the PySyft abstraction, we are able to perform normal tensor operations. For example, we can add, subtract, divide, etc. However, we are not interacting directly with the data. Also, the workers have different attributes which allow us to inspect their values, retrieve the data, check the worker location, etc. Additionally, I completed the sg_project-t-shirt project using a generative model. I used different techniques during the training phase. The results can be displayed in the figure.
 
 ![](plots/t_shirt_project.png)
+
+# DAY 34 [56.7%] | 60
+* Continuing with Lesson 7.
+* Studying lectures: 8, 9 and 10.
+* Participating in the Webinar: Putting Humans at the Center of AI.
+* Joining the AWS DeepRacer Challenge.
+
+__What I learn:__
+
+Today I learned about a Federated Learning implementation using PySyft. Concretely, we can combine the abstraction provided by PySyft to train a pytorch model. For example, we can take the original data and send it to different workers. Then, we can define a local model. In this case, we are implementing a neural network. Then, we can train this model using the data from the workers. The interesting detail here, is that, we are not accessing the remote data directly. Instead we are using a remote reference provided by PySyft to access the data. Also, since we are dealing with tensor abstractions, our model can train with the remote references. Also, I noticed better results when using SGD, in contrast with Adam in the Federated Learning context. This could be related with the nature of SGD, where we can distribute the weights among different workers. Next, I joined the webinar, hosted by Professors: Fei-Fei Li and Sebastian Thrun: Putting Humans at the Center of AI. It was a very interesting talk, there were different topics regarding AI. In particular I enjoy the topics about AI in health care. It is very interesting to see how diverse AI techniques can be applied in many areas of medicine. Also, I found the words of Prof. Fei-Fei Li very inspirational: __“Use AI to augment and enhance humans, not replace them”__. Finally, I joined the AWS DeepRacer Challenge program.
+
+![](plots/figure_34d.png)
