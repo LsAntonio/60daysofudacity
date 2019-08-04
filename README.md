@@ -349,3 +349,12 @@ Today I learned about a Federated Learning implementation using PySyft. Concrete
 
 __What I learn:__
 Today I learned about different operations with workers. For example, we can send the data to workers in a chain. This will allow a worker to have a pointer to the data too. We can also move the data between workers. Also, I learn about the complexity in privacy. Since privacy will have different meanings according with the context. In the case of federated learning, privacy is defined with regard the user’s data. However, not only the data itself, but also the parameters from the models. In the case of a neural network, we are talking about the raw gradients. These gradients, contain not only the model information, but also part of the user’s data. Since they learned from the user’s data, they can be exploited to access private data. Therefore, federated learning ensures that, the training process do not accidentally leak private data, neither in the form of data or gradients.
+
+# DAY 36 [60.0%] | 60
+* Continuing working in the final project for Lesson 7
+* Recap from Lesson 7
+* Complete the Lesson 1 from the DeepRace Scholarship.
+
+__What I learn:__
+
+Federated Learning is a privacy technique which guarantees data privacy in deep learning. It is used in a distributed environment. Where a main model, is trained with remote data. However, neither the remote data or the raw gradients are accessed by third parties. Also, the privacy is maintained among users, because each user have access to their own data only. Furthermore, the data is encrypted in both ends (user and server). This applies to the user data and model parameters. To add extra security, the gradients are not directly computed on the server. Instead, they are averaged in a remote machine. As we can see, using this framework, we can train large models along different data sets. In all the steps a privacy mechanism ensures that the training process do not leak any private information.
