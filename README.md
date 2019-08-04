@@ -358,3 +358,10 @@ Today I learned about different operations with workers. For example, we can sen
 __What I learn:__
 
 Federated Learning is a privacy technique which guarantees data privacy in deep learning. It is used in a distributed environment. Where a main model, is trained with remote data. However, neither the remote data or the raw gradients are accessed by third parties. Also, the privacy is maintained among users, because each user have access to their own data only. Furthermore, the data is encrypted in both ends (user and server). This applies to the user data and model parameters. To add extra security, the gradients are not directly computed on the server. Instead, they are averaged in a remote machine. As we can see, using this framework, we can train large models along different data sets. In all the steps a privacy mechanism ensures that the training process do not leak any private information.
+
+# DAY 37 [61.7%] | 60
+* Reading the paper: Why Should I Trust You?: Explaining the Predictions of Any Classifier.
+* Working with a OpenCV YOLO implementation.
+
+__What I learn:__
+Today I learn about an interesting issue in Machine Learning Systems. In the majority of applications, the mechanism involved in the prediction process are unknown for the users. For example, in a medical application, we can train a model to aid Doctors in diagnosis. However, how could Doctors interpret the model prediction. Moreover, how can Doctors trust in a model prediction?. To address this issue, the framework LAME implement a mechanism to explain both: the predictions and model reasoning. This can be applied not only to linear models, but to more complex models, like neural networks. This is extremely useful, since most neural network architectures tend to be very complex. Thus, with LIME, we can explain how the model works. Also, we can put LAME as part of the pipeline of machine learning. Resulting in more robust models. Finally I began to work in a project to use YOLO in OpenCV.
