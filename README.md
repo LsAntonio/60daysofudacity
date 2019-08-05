@@ -365,3 +365,16 @@ Federated Learning is a privacy technique which guarantees data privacy in deep 
 
 __What I learn:__
 Today I learn about an interesting issue in Machine Learning Systems. In the majority of applications, the mechanism involved in the prediction process are unknown for the users. For example, in a medical application, we can train a model to aid Doctors in diagnosis. However, how could Doctors interpret the model prediction. Moreover, how can Doctors trust in a model prediction?. To address this issue, the framework LAME implement a mechanism to explain both: the predictions and model reasoning. This can be applied not only to linear models, but to more complex models, like neural networks. This is extremely useful, since most neural network architectures tend to be very complex. Thus, with LIME, we can explain how the model works. Also, we can put LAME as part of the pipeline of machine learning. Resulting in more robust models. Finally I began to work in a project to use YOLO in OpenCV.
+
+# DAY 38 [63.3%] | 60
+* Finish working with final project for Lesson 7.
+* Uploaded notebook.
+* Beginning with Lesson 8: Securing Federated Learning
+* Studying lectures: 1 and 2.
+* Meeting with the sg_latin group.
+
+__What I learn:__
+
+Today I learn about Federated Learning with a trusted aggregator. Federated Learning is a technique, which allow us to train a model across different users, without compromising their privacy. In this project, I implemented federated learning using a set of workers. In the context of DP, the workers represent the remote users. This users will have local data, in which we would like to train on. However, even if we send a copy of the main model to the users, it is still possible to see their data using a leak. This leak, involve the use of the raw gradients. These gradients contain the user data. Therefore, in order to add an extra security layer, we can apply an aggregator. This aggregator will compute the averaged from the gradients. Then, in the server we will receive the averaged gradients. This ensures that, we are not seeking at the actual gradients. In the figure, we can see how the server gets the averaged gradients, while each worker compute their own gradient __See notebook for this day__. Finally, I participated in a meeting with the sg_latin group. We discussed diverse topics involving Deep Learning applications, and how we can implement private techniques. In particular, we define a collaborative project involving real user data.
+
+![](plots/figure_38d.png)
