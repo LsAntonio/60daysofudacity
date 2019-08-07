@@ -223,8 +223,9 @@ Continuing with the concepts from Lesson 6: “...since we cannot access the rem
 __What I learn:__
 <p align = "justify"> 
 Continuing with the implementation of the concepts from Lesson 6: “… we may use trained classifiers on remote data sets to labels ours. However, even with this mechanism, there are still ways in which we can guess the real values from the external data sets using the classifiers parameter’s”. Indeed, as we have seen in past lessons, it is totally possible to use some queries over the data sets to break privacy. In this case, the same can be applied to the classifiers (algorithms). In particular, if we use neural networks, we can use the raw gradients to obtain such information. Hopefully, we can add a noise degree over the label generation process. To be more precisely, this noise will represent the value of privacy we want to keep. As seen in the literature, this value correspond to the epsilon parameter. Now, regarding the noise, we can use different functions to generate it. However, as discussed in class, the more efficient, in terms of computationally cost and implementation is the Laplacian noise. Therefore we will apply the Laplacian noise, also, we set the value to 0.1.
+ </p>
+ 
 ![](plots/figure_21d.png)
-</p>
  
 # DAY 22 [36.7%] | 60
 
@@ -236,6 +237,7 @@ __What I learn:__
 <p align = "justify"> 
 Continuing with the implementation of the concepts from Lesson 6: “… and then, after we have our local labels generated with differential privacy, now, we can train our local model, without compromising the the remote data sets.”. Therefore, today, I defined our local model in Pytorch. For this data set, I implemented a shallow network. Then, I proceed with the training process. However, instead of using the real labels from the data set, I use the generated labels. It is interesting to note, how these labels have been generated. In a sense, the are directly dependent on the external classifiers and the data sets. However, the differential mechanism applied guarantees that we can not break the privacy of the remote data sets. Furthermore, we have now an extra parameter which controls the degree of privacy. Of course, one can argue that, if the same person is carrying out the analysis, this person would also have access to the epsilon value. This discussion also arises in the privacy book: “The Algorithmic Foundations of Differential Privacy”. Hopeful, as one can guest, there are different forms in which we can assure the anonymity of the epsilon value. Therefore we can still guarantee privacy.
 </p>
+
 ![](plots/figure_22d.png)
 
 # DAY 23 [38.3%] | 60
@@ -255,6 +257,7 @@ __What I learn:__
 <p align = "justify"> 
 Today, I learned about an interesting research topic in deep learning: interpretability. This term is refereed to the model explaining capacity. For example, in a medical setting, alongside accuracy, it is also desirable to know the underlying mechanism that lead the classification criteria of the model. Also,  there are a relationship between complexity and explanation. For example, very complex models like deep networks are more difficult to explain, due to the many parameters they have. In contrast, more simple models, are easier to explain. Therefore there is a trade-off between complexity and explanation. This trade-off must be taken into consideration when dealing with applications that require additional explanations from the model. Also, I contribute to the sg_latin project, which main goal is to apply differential privacy. Concretely, my contributions were focused on implement a pytorch model alongside the training and evaluation process, using the provided code: https://github.com/rick1612/House-Price.
 </p>
+
 ![](plots/figure_24d.png)
 
 # DAY 25 [41.7%] | 60
@@ -268,6 +271,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I design an experiment involving variations to the the epsilon parameter. Basically, I define a set of epsilon values between [1e-05, 10e+3]. Next, I generate the labels using each value from epsilon, then I trained a shallow model using the generated labels per each epsilon. Next, I compared the accuracy using a single run (training only once) versus an average run (repeating the training process 20 times). As we can see in the figure, each time the values of epsilon increased, the model approaches more to the real labels distribution, which mean, we are leaking a lot of information. On the contrary, using small values of epsilon, guarantees the privacy over the original data. Also, one interesting behavior comes from our model’s  accuracy. Where the epsilon variations have a major impact over the real labels, whereas for the generated labels have a sightly minor impact. Finally, for both cases (single versus average) we can see that if epsilon is bigger than 1, we begin to leak a lot of information.
 </p>
+
 ![](plots/figure_25d.png)
 
 # DAY 26 [43.3%] | 60
@@ -281,6 +285,7 @@ __What I learn:__
 <p align = "justify"> 
 Today, I continue working with some variations to the project. Last time, I changed the epsilon values, the obtained results suggested that, each increase in epsilon will allow our model to approach to the real data distribution. Thus, we would leak information. At the same time, we were able to obtain an acceptable accuracy. However, there is another factor which could affect the privacy parameter. I am referring to the external classifiers. In this setting, the classifiers were acting as teachers. However, they are no free of variations. In fact, if we consider the inherent stochasticity present in their training process, we then can hypothesize that, changes in those parameters, could affect the generating labels. Therefore, I decide to train ten times the external classifiers. Also I trained the local model multiple times per each classifier. The obtained results, looks very similar to the last experiment. In fact, there are little variations. Therefore, even if the external classifiers have different variations, the epsilon parameter still guarantees a solid privacy.
 </p>
+
 ![](plots/figure_26d.png)
 
 # DAY 27 [45.0%] | 60
@@ -317,6 +322,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I work in the  sg_project-t-shirt, where we must generate an image. For this problem, we can apply two approaches. The first one involve the use of a pre trained model to apply the features of one image into another. This is called transfer style. As its name implies, we use two images, namely, a target and a content image. In this approach, we use a model to transfer the style from the content image into the target one. This is achieved thanks to the learned representations from the model. In particular, since we are dealing with images, convolutional layers are a good choice. On the other hand, we could also use generative models too. In this occasion I applied style transfer. But I will try generative models next.
 </p>
+
 ![](plots/figure_29d.png)
 
 # DAY 30 [50.0%] | 60
@@ -327,6 +333,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I discussed interesting topics regarding GANS. GANS are generative models, which can be used to generate data. This model uses a generator and discriminator. Where, during training the generator feeds a fake image into the discriminator. Then, the discriminator have to recognize the fake image from the real one. In this way, each time the discriminator improves, the generator is forced to improve as well. The same is for the generator, which pushes the discriminator to get better at distinguish the real images from the fakes ones.
 </p>
+
 ![](plots/figure_30d.png)
 
 # DAY 31 [51.7%] | 60
@@ -340,6 +347,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I work in the sg_project-t-shirt project. Since I implemented style transfer, this time I decide to implemented a generative model. In particular I used a generator and discriminator networks. These networks are composed by convolutional layers. However, the models are different at their last layers. For the generator, it have a convolutional layer, since we are generating images. Meanwhile, the discriminator have a single output. We use this output to evaluate the the generated images from the generator. Finally I was able to generate some initial images.
 </p>
+
 ![](plots/figure_31d.png)
 
 # DAY 32 [53.3%] | 60
@@ -353,6 +361,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I learn about Federated learning. Federated learning is a technique which allow us to train models without compromising the privacy of the user. This technique, uses the local data from users without exposing the data. Therefore, we can train models in a distributive fashion. For example, we can train a text predictor on the user’s phone without accessing the user’s data. This represent a huge advantage, since: (1) we are able to train the model on remote data and (2) the user will get a more precise model. Once we trained the remote model, we can upload the new model to the server. Then all the users will use the new model. Also, I uploaded the complete notebook for the project in Lesson 6. Finally I work in some improvements for the sg_project-t-shirt. These allow me to generate more diverse images.
 </p>
+
 ![](plots/figure_32d.png)
 
 # DAY 33 [55.0%] | 60
@@ -365,6 +374,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I learned about the PySyft library. PySyft is a open source project developed by Openmined. This library allow us to train models in parallel. Since we are working in a distributed environment, we need to define workers. A worker is an object (remote) which will be used to communicate with the main server. This worker, can store different data. More precisely, it helps us to represent tensor objects. At the same time, thanks to the PySyft abstraction, we are able to perform normal tensor operations. For example, we can add, subtract, divide, etc. However, we are not interacting directly with the data. Also, the workers have different attributes which allow us to inspect their values, retrieve the data, check the worker location, etc. Additionally, I completed the sg_project-t-shirt project using a generative model. I used different techniques during the training phase. The results can be displayed in the figure.
 </p>
+
 ![](plots/t_shirt_project.png)
 
 # DAY 34 [56.7%] | 60
@@ -377,6 +387,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I learned about a Federated Learning implementation using PySyft. Concretely, we can combine the abstraction provided by PySyft to train a pytorch model. For example, we can take the original data and send it to different workers. Then, we can define a local model. In this case, we are implementing a neural network. Then, we can train this model using the data from the workers. The interesting detail here, is that, we are not accessing the remote data directly. Instead we are using a remote reference provided by PySyft to access the data. Also, since we are dealing with tensor abstractions, our model can train with the remote references. Also, I noticed better results when using SGD, in contrast with Adam in the Federated Learning context. This could be related with the nature of SGD, where we can distribute the weights among different workers. Next, I joined the webinar, hosted by Professors: Fei-Fei Li and Sebastian Thrun: Putting Humans at the Center of AI. It was a very interesting talk, there were different topics regarding AI. In particular I enjoy the topics about AI in health care. It is very interesting to see how diverse AI techniques can be applied in many areas of medicine. Also, I found the words of Prof. Fei-Fei Li very inspirational: __“Use AI to augment and enhance humans, not replace them”__. Finally, I joined the AWS DeepRacer Challenge program.
 </p>
+
 ![](plots/figure_34d.png)
 
 # DAY 35 [58.3%] | 60
@@ -419,6 +430,7 @@ __What I learn:__
 <p align = "justify"> 
 Today I learn about Federated Learning with a trusted aggregator. Federated Learning is a technique, which allow us to train a model across different users, without compromising their privacy. In this project, I implemented federated learning using a set of workers. In the context of DP, the workers represent the remote users. This users will have local data, in which we would like to train on. However, even if we send a copy of the main model to the users, it is still possible to see their data using a leak. This leak, involve the use of the raw gradients. These gradients contain the user data. Therefore, in order to add an extra security layer, we can apply an aggregator. This aggregator will compute the averaged from the gradients. Then, in the server we will receive the averaged gradients. This ensures that, we are not seeking at the actual gradients. In the figure, we can see how the server gets the averaged gradients, while each worker compute their own gradient. Finally, I participated in a meeting with the sg_latin group. We discussed diverse topics involving Deep Learning applications, and how we can implement private techniques. In particular, we define a collaborative project involving real user data.
 </p>
+
 ![](plots/figure_38d.png)
 
 # DAY 39 [65.0%] | 60
