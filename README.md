@@ -378,3 +378,12 @@ __What I learn:__
 Today I learn about Federated Learning with a trusted aggregator. Federated Learning is a technique, which allow us to train a model across different users, without compromising their privacy. In this project, I implemented federated learning using a set of workers. In the context of DP, the workers represent the remote users. This users will have local data, in which we would like to train on. However, even if we send a copy of the main model to the users, it is still possible to see their data using a leak. This leak, involve the use of the raw gradients. These gradients contain the user data. Therefore, in order to add an extra security layer, we can apply an aggregator. This aggregator will compute the averaged from the gradients. Then, in the server we will receive the averaged gradients. This ensures that, we are not seeking at the actual gradients. In the figure, we can see how the server gets the averaged gradients, while each worker compute their own gradient. Finally, I participated in a meeting with the sg_latin group. We discussed diverse topics involving Deep Learning applications, and how we can implement private techniques. In particular, we define a collaborative project involving real user data.
 
 ![](plots/figure_38d.png)
+
+# DAY 39 [65.0%] | 60
+* Continuing with Lesson 8
+* Studying lectures: 3, 4, 5 and 6.
+* Adding a description to the gs-latin github repository.
+
+__What I learn:__
+
+Today I learn about an encryption technique, called additive secret sharing. This technique allow us to distribute data among different users, using an aggregation mechanism. This mechanism guarantees that no other individuals know what the adding input was. This is also applied to the users using this encryption. In this context, we can implement diverse operations. For example, we can encrypt the values and add a multiplication, division, etc. However, we can perform these operations directly into the encrypted values. Then, we can decrypt the values and get the result from the operation. This means, we can use this mechanism not only to protect the data, but also to operate over it. In the context of deep learning, we can apply these technique to the hyper parameters, which will improve privacy among users. Finally I added a little description to the  gs-latin github repository.
