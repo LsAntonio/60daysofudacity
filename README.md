@@ -387,3 +387,17 @@ Today I learn about Federated Learning with a trusted aggregator. Federated Lear
 __What I learn:__
 
 Today I learn about an encryption technique, called additive secret sharing. This technique allow us to distribute data among different users, using an aggregation mechanism. This mechanism guarantees that no other individuals know what the adding input was. This is also applied to the users using this encryption. In this context, we can implement diverse operations. For example, we can encrypt the values and add a multiplication, division, etc. However, we can perform these operations directly into the encrypted values. Then, we can decrypt the values and get the result from the operation. This means, we can use this mechanism not only to protect the data, but also to operate over it. In the context of deep learning, we can apply these technique to the hyper parameters, which will improve privacy among users. Finally I added a little description to the  gs-latin github repository.
+
+# DAY 40 [66.7%] | 60
+* Continuing with Lesson 8.
+* Studying lectures: 7, 8 and 9.
+* Working on the final project for Lesson 8
+* Meeting with the sg_latin group.
+
+__What I learn:__
+
+<p align = "justify"> 
+Today I learned about operations using encrypted methods. This methods will allow us to operate over the data without revealing it. We can implement different operations. For example, we can: add, multiply, etc. These basic operations, can then be combined into more complex operations. For example, we can use them to encrypt the data used for training. Also I learn about a method called: Precision Encoding. This method allow us to encrypt our data using an encoding and decoding mechanism. This process, will first convert the data into an encoded representation. This representation have a Q parameter, which indicates the total size of the operations. Where, the size of any operation must not be grater than Q. Otherwise, we will have an overflow problem. After the data is encoded, a decoded operation can be applied to get the original results. Moreover, we can perform several operation in the encoding form, without affecting the real data. Finally, I participated in the sg_lating meeting. Where, we discuss diverse privacy techniques, which can be applied to a convolution model. In particular, we propose to work with a trained model. Then, we could apply different approaches, such as: PATE, DP, FD and encryption.
+<\p>
+
+![](plots/figure_40d.png)
