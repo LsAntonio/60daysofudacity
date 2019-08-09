@@ -467,3 +467,21 @@ __What I learn:__
 <p align = "justify"> 
 Today I take a recap from Lesson 8. In the Lesson we were introduced to diverse techniques, which allow us add more security to Federated Learning. Concretely, we discussed: trusted aggregators, additive sharing, encoded and decoded encryption, encrypted operations and fixed precision in PySyft. These techniques will be combined into Federated Learning. For example, we can safely aggregate the gradients using a secure third party (trusted aggregators). Also, since we are dealing with the user’s gradients, we can encrypt these values using additive sharing among different workers. This, will ensure that the data remains encrypted from each worker. To sum up, using PySyft we can implement these mechanism into Federated Learning across multiple workers. Also, I learn about Reinforcement learning, which allow us to create programs, which can learn by themselves. In the context of deep learning, these programs are represented by deep neural networks. These networks, will learn to represent knowledge to interact with an environment. This environment can be virtual or physical. Then, the reinforcement model will learn to perform a task using its actions to interact with the environment. The objective, is to obtain the maximum reward, which is a function defined beforehand. Then after a number of iterations, the model will correctly learn the task. These models can be applied to a wide variety of domains, such as: finance, process, etc.
 </p>
+
+# DAY 42 [70.0%] | 60* #60daysofudacity
+* Continuing with Lesson 9.
+* Studying lectures 1 and 2.
+* Meeting with the sg_latin group.
+* Completed final project from Lesson 8.
+* Uploading complete notebook project for Lesson 8.
+
+__What I learn:__
+<p align = "justify"> 
+Today, I learned about encrypted deep learning. Encrypted deep learning allow us to encrypt our models using encryption techniques. These techniques allow us to perform different arithmetic operations over encoded values. Where, the values represent the parameters of the model. The encryption is composed by diverse set of arithmetic operations, which apply a field representation. The field will contain a set of parameters and operations, therefore, it will have a size. If we use a ten field size, each number and operation will be contained inside this field. This means, that, in order to use encrypted operations, the parameters and results must not be greater than the field. Otherwise, we will generate an overflow. An overflow will damage our representations, thus, the computation values will be numerically wrong. Also, since these encryption involve a decryption process, which can be computationally expensive, we can, in some settings, only encrypt one portion of the data. This will translate in a gain speed for computations, increasing the performance of the operations. As part of the study group, today I have an interesting meeting with the sg_latin group. Where, we discussed diverse topics related to project implementations. Finally, I completed the final project from Lesson 8, where I implemented Federated Learning using encryption and trusted aggregation. I used the iris data set, for which I apply an initial data exploration as seen in the figure. Also, I shown the accuracy from the remote models against the main model. The results indicate that the main model averaged the encrypted gradients efficiently. Thus, the obtained accuracy was 98.67%.
+</p>
+
+![](plots/figure_42d.png)
+
+![](plots/figure_421d.png)
+
+![](plots/meeting_42d.png)
