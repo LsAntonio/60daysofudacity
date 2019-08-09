@@ -456,3 +456,14 @@ Today I learned about operations using encrypted methods. This methods will allo
 </p>
 
 ![](plots/figure_40d.png)
+
+# DAY 41 [68.3%] | 60
+* Beginning with Lesson 9: Encrypted Deep Learning
+* Recap from Lesson 8
+* Continuing working on the final project for Lesson 8
+* Beginning studying lessons 1 and 2 from the DRLND program.
+
+__What I learn:__
+<p align = "justify"> 
+Today I take a recap from Lesson 8. In the Lesson we were introduced to diverse techniques, which allow us add more security to Federated Learning. Concretely, we discussed: trusted aggregators, additive sharing, encoded and decoded encryption, encrypted operations and fixed precision in PySyft. These techniques will be combined into Federated Learning. For example, we can safely aggregate the gradients using a secure third party (trusted aggregators). Also, since we are dealing with the user’s gradients, we can encrypt these values using additive sharing among different workers. This, will ensure that the data remains encrypted from each worker. To sum up, using PySyft we can implement these mechanism into Federated Learning across multiple workers. Also, I learn about Reinforcement learning, which allow us to create programs, which can learn by themselves. In the context of deep learning, these programs are represented by deep neural networks. These networks, will learn to represent knowledge to interact with an environment. This environment can be virtual or physical. Then, the reinforcement model will learn to perform a task using its actions to interact with the environment. The objective, is to obtain the maximum reward, which is a function defined beforehand. Then after a number of iterations, the model will correctly learn the task. These models can be applied to a wide variety of domains, such as: finance, process, etc.
+</p>
