@@ -485,3 +485,12 @@ Today, I learned about encrypted deep learning. Encrypted deep learning allow us
 ![](plots/figure_421d.png)
 
 ![](plots/meeting_42d.png)
+
+# DAY 43 [71.7%] | 60
+* Continuing with Lesson 9.
+* Studying lectures 3, 4 and 5.
+
+__What I learn:__
+<p align = "justify"> 
+Today I learn about encryption in a database. We can encrypt the values in our data base using a key to identity a specific value. We can use diverse techniques to encrypt the keys and values. For example, we can take a one hot representation for the keys, and a vector representation for the values. This will allow us to store the encrypted keys alongside their values in the data base. However, we still need to add an extra encryption layer. For that, we use the encryption mechanism provided by PySyft. In this setting, we will use additive sharing across many workers. This way, the keys and values are been protected. Now, we need to query our data base. However, since we are encrypting the key and values, the query must also be encrypted. Finally, we can put all the functions inside a class to create our encrypted data base.
+</p>
