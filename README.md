@@ -491,6 +491,16 @@ Today, I learned about encrypted deep learning. Encrypted deep learning allow us
 * Studying lectures 3, 4 and 5.
 
 __What I learn:__
-<p align = "justify"> 
+<p align = "justify">
 Today I learn about encryption in a database. We can encrypt the values in our data base using a key to identity a specific value. We can use diverse techniques to encrypt the keys and values. For example, we can take a one hot representation for the keys, and a vector representation for the values. This will allow us to store the encrypted keys alongside their values in the data base. However, we still need to add an extra encryption layer. For that, we use the encryption mechanism provided by PySyft. In this setting, we will use additive sharing across many workers. This way, the keys and values are been protected. Now, we need to query our data base. However, since we are encrypting the key and values, the query must also be encrypted. Finally, we can put all the functions inside a class to create our encrypted data base.
+</p>
+
+# DAY 44 [73.3%] | 60
+* Continuing with Lesson 9.
+* Studying lectures 6, 7, 8 and 9.
+* Applying EDA to the sg_latin project.
+
+__What I learn:__
+<p align = "justify">
+Today I learned about encryption in the context of Deep Learning. We can use additive sharing encryption to preserve the user privacy and the model parameters. This means, a user can interact with the model to make predictions, but the results of that predictions will only visible to the user. Likewise, the model owner can train its model on the user data, but, never have access, or see the user data. Which in this case represent the learned data in the model’s parameters. Moreover, if we consider the fact that, we can combine this encryption with federated learning, where the gradients are averaged, we obtained a strong policy to protect the privacy in both sides (server and client). We can, implement these techniques in different frameworks, such as: pytorch and keras. Finally I began to work in the sg_latin project, where I will apply exploratory data techniques over a data set.
 </p>
