@@ -504,3 +504,14 @@ __What I learn:__
 <p align = "justify">
 Today I learned about encryption in the context of Deep Learning. We can use additive sharing encryption to preserve the user privacy and the model parameters. This means, a user can interact with the model to make predictions, but the results of that predictions will only visible to the user. Likewise, the model owner can train its model on the user data, but, never have access, or see the user data. Which in this case represent the learned data in the model’s parameters. Moreover, if we consider the fact that, we can combine this encryption with federated learning, where the gradients are averaged, we obtained a strong policy to protect the privacy in both sides (server and client). We can, implement these techniques in different frameworks, such as: pytorch and keras. Finally I began to work in the sg_latin project, where I will apply exploratory data techniques over a data set.
 </p>
+
+# DAY 45 [75.0%] | 60
+* Recap from Lesson 9.
+* Working on an initial implementation for the Keystone Project.
+* Working on Final Project for Lesson 9
+* Continuing working in the sg_latin project.
+
+__What I learn:__
+<p align = "justify">
+Today I did a recap from Lesson 9, where we review diverse encryption techniques. These techniques allow us to secure Deep Learning. Meaning, we can secure both, the data used to train the models, which contain sensitive information, and the model itself. There are different ways in which we can achieve this. One of them, is additive secret sharing encryption. This technique, will encode the data among different users. This idea is not only applied to the server-user relationship, but between users as well. Thus, protecting user data and ensuring that the users only access to their own data. The model can be also encrypted using this technique. In this context, is important to note that, the model needs to be also encrypted since it contains private information in the form of raw gradients. The gradients represent the learning data, therefore it is important to encrypt them too. But, this alone is not enough, now, we need a secure framework to train and deploy the model. Hopefully, we can rely in the PySyft framework, which implement these techniques to secure train the model. This can be also extended to the Federated Learning approach. Even more, we can combine different techniques to add more privacy.
+</p>
