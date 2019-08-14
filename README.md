@@ -525,3 +525,14 @@ __What I learn:__
 <p align = "justify">
 Today I completed the Secure and Private AI course. It has been a wonderful experience. I have learn different concepts to protect the user’s privacy using Deep Learning. Moreover I have been exposed to an emergent field. I have to say thanks to Udacity, Facebook and Prof. Andrew Trask for elaborate such amazing course. As a side note, I want to highlight the words from  Prof. Andrew Trask, regarding, when to apply these techniques. It is important to note, how these techniques can be adapted according with the scenario. Also, trust remains as an key component in the whole privacy pipeline. I think, that, as practitioners, we must do all what is in our hands to ensure these trust with the person’s data. Thus, we can help researchers to share their data sets. Which will allow many discoveries. I think, this is strongly true in the health field, where we cannot risk the user’s privacy to be leak. Finally, I completed the project from this Lesson, where we implemented an encrypted database using an encryption mechanism. This mechanism implement an encoded and decoded process. This allowed us to represent the data (encoded) and to respond with the real value (decoded) when a query was perform. To encode the data, we apply two encoded process, one for the keys and the other for the values. In the keys, we apply one-hot representation. This will turn on a single value in the matrix, which represent the keys. Also, the values are encoded using a tensor representation, where each value correspond to a data dictionary representation. Finally, we used syft to add an encryption layer to our encoder-decoder representation. This allowed us to send the data to diverse workers, where each worker have their data encrypted. Then, we can query over the real values of the data base without revealing the values in the process. See the notebook for this day for more details.
 </p>
+
+# DAY 47 [78.3%] | 60
+* Working on Showcase Project.
+* Complete the sg_latin project, uploaded complete notebook.
+* Meeting with the sg_latin group.
+
+__What I learn:__
+<p align = "justify">
+Today I completed the first section of the showcase project for the sg_latin group. In the project, we apply diverse privacy techniques over a data set. This data set contains diverse bed postures, which were recorded using a sensor. In the first section, we implement a data exploratory analysis over the data set. This allow us to better understand the data and to apply models. Also, as part of the EDA a shallow network was applied over the data. Also I participated in a meeting in the sg_latin group, where we discussed diverse approaches to add privacy techniques over the data set.
+</p>
+
