@@ -536,3 +536,4 @@ __What I learn:__
 Today I completed the first section of the showcase project for the sg_latin group. In the project, we apply diverse privacy techniques over a data set. This data set contains diverse bed postures, which were recorded using a sensor. In the first section, we implement a data exploratory analysis over the data set. This allow us to better understand the data and to apply models. Also, as part of the EDA a shallow network was applied over the data. Also I participated in a meeting in the sg_latin group, where we discussed diverse approaches to add privacy techniques over the data set.
 </p>
 
+![](plots/figure_47d.png)
