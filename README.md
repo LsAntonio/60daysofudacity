@@ -537,3 +537,13 @@ Today I completed the first section of the showcase project for the sg_latin gro
 </p>
 
 ![](plots/figure_47d.png)
+
+# DAY 48 [80.0%] | 60
+* Applying changes to the sg_latin project.
+* Adding an extra section to the sg_latin project.
+* Continuing working in the showcase project.
+
+__What I learn:__
+<p align = "justify">
+Today I work in some modifications to the sg_latin project. Also I am working in the showcase project. In the sg_latin project I added an extra analysis to a second set of data. This data, also contains bed postures. However, this includes two types of beds. Also, the records are less in comparison with the first set of data. In the showcase, I added a set of functions to run the project. Also I am working in the documentation for the showcase project.
+</p>
