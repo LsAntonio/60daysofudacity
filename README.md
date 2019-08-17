@@ -547,3 +547,15 @@ __What I learn:__
 <p align = "justify">
 Today I work in some modifications to the sg_latin project. Also I am working in the showcase project. In the sg_latin project I added an extra analysis to a second set of data. This data, also contains bed postures. However, this includes two types of beds. Also, the records are less in comparison with the first set of data. In the showcase, I added a set of functions to run the project. Also I am working in the documentation for the showcase project.
 </p>
+
+# DAY 49 [81.7%] | 60
+* Working in the sg_latin project.
+* Continuing working in the Keystone Project.
+* Working in the showcase project.
+
+__What I learn:__
+<p align = "justify">
+Today I worked in the sg_latin, keystone and showcase projects. In the sg_latin project I have added an extra section, were I perform an EDA to a second set of the data set. I have added plots, which described the distribution of the data set. Also I added a shallow network to predict the bed postures with one set of data. Meanwhile, in the keystone project, I have selected a data set to work with. I am writing a set of functions to implement the concepts from the Lessons. Finally I added an initial documentation to the showcase project.
+</p>
+
+![](plots/figure_49d.png)
