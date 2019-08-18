@@ -559,3 +559,15 @@ Today I worked in the sg_latin, keystone and showcase projects. In the sg_latin 
 </p>
 
 ![](plots/figure_49d.png)
+
+# DAY 50 [83.3%] | 60
+* Working in the sg_latin project.
+* Continuing working in the Keystone Project.
+* Working in the showcase project.
+
+__What I learn:__
+<p align = "justify">
+Today I added an extra EDA to the sg_latin project. In the first section I focused in the first subset of data, which contains bed postures records. In this subset, the class supine have a major number of instances in contrast with the other two classes. Also, the data present a slight degree of noise. This noise is present in some records. For example, the first two rows correspond to the instances, where the user is positioning on the bed. Meanwhile, for the second subset, we have two different mats (air and sponge). The data in both mats presented a more strong degree of noise, in comparison with the first subset. Also, I observed a significant variation in the postures. This variations added different rotations o the basic postures. For example, we have a supine posture with a 45 degree rotation. In both cases (air and sponge), the majority class was: supine. For the second subset, there was less samples, in contrast with the first one. Finally, I continued working in the keystone and showcase projects.
+</p>
+
+![](plots/figure_50d.png)
