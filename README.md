@@ -571,3 +571,19 @@ Today I added an extra EDA to the sg_latin project. In the first section I focus
 </p>
 
 ![](plots/figure_50d.png)
+
+
+# DAY 51 [85.0%] | 60
+* Completed the flower showcase project.
+* Uploaded project to the repository.
+
+__What I learn:__
+<p align = "justify">
+Today I completed the showcase project. In this project, I implemented a generative model, which can create artistic flower images. Generative models are powerful architectures, which allow us to generate a diverse variety of data. It is interesting to see how these models can approximate the real data distribution using the game-theory framework. Although, in this project, the generator is the one who generates the data, we cannot ignore the importance of the discriminator, which also acted as a teacher. Once said that, we also need to consider the trade-off in the training procedure, since we are dealing with two models, instead of one. Finally, the model was able to learn to generate artistic flowers using just a random noise vector as input.
+</p>
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=4JwqccCi7kI" target="_blank">
+  <img src="https://img.youtube.com/vi/4JwqccCi7kI/0.jpg" alt="Demo" width = "500", height = "350">
+</a>
+</p>
