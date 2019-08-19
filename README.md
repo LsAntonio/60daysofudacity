@@ -587,3 +587,15 @@ Today I completed the showcase project. In this project, I implemented a generat
   <img src="https://img.youtube.com/vi/4JwqccCi7kI/0.jpg" alt="Demo" width = "500", height = "350">
 </a>
 </p>
+
+# DAY 52 [86.7%] | 60
+* Refining the sg_latin project.
+* Uploaded completed version of the showcase project.
+* Working in the Keystone project.
+
+__What I learn:__
+<p align = "justify">
+Today I worked in the sg_latin, showcase and keystone projects. In the sg_latin, after the meeting, we decide to add a more clear explanation to some sections of the project. Also, I revised the showcase project, and uploaded a complete version. Finally, I am working in the keystone project.
+</p>
+
+![](plots/figure_52d.png)
