@@ -599,3 +599,13 @@ Today I worked in the sg_latin, showcase and keystone projects. In the sg_latin,
 </p>
 
 ![](plots/figure_52d.png)
+
+# DAY 53 [88.3%] | 60
+* Continuing studying lessons 3 and 4 from the DRLND program.
+* Studying Reinforcement Book, chapter 3, section 3.1.
+* Continuing working on the Keystone project.
+
+__What I learn:__
+<p align = "justify">
+Today I learn about Markov Decision Process. MDP, is a mathematical framework, which allow us to modeling the process of decision making. In the context of Deep Reinforcement Learning, we use MDP to model the learning behavior of an agent. This behavior is related with learning a certain task, where the agent interact with an environment. This environment, is composed by a set of states, which can be discrete or stochastic. This states will change through the agent actions. Then, the agent will combine these actions into a policy. As we can see, the MDP framework, give us the necessary tools to model this learning behavior.
+</p>
