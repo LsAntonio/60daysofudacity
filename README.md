@@ -609,3 +609,20 @@ __What I learn:__
 <p align = "justify">
 Today I learn about Markov Decision Process. MDP, is a mathematical framework, which allow us to modeling the process of decision making. In the context of Deep Reinforcement Learning, we use MDP to model the learning behavior of an agent. This behavior is related with learning a certain task, where the agent interact with an environment. This environment, is composed by a set of states, which can be discrete or stochastic. This states will change through the agent actions. Then, the agent will combine these actions into a policy. As we can see, the MDP framework, give us the necessary tools to model this learning behavior.
 </p>
+
+# DAY 54 [90.0%] | 60
+* Studying Reinforcement Book, chapter 3, section 3.2.
+* Trained an agent to drive.
+* Continuing working in the sections of the keystone project.
+
+
+__What I learn:__
+<p align = "justify">
+Today I learned more about the theory of RL. RL is an area, which allow us to add a learning behavior to a system. In this setting, a system is defined by an agent. The learning process is the result of the interaction with an environment. This environment, will contain a set of states, where the agent will interact. Then, using a set of actions, the agent will learn to perform a task. This dynamics is generally modeled using a MDP framework. This framework allow us to abstract behavior in terms of states, which is used by the agent. Also, I have trained a small agent, which learns to drive.
+ </p>
+
+ <p align="center">
+<a href="https://www.youtube.com/watch?v=Gw5fiy85Ewg" target="_blank">
+  <img src="https://img.youtube.com/vi/Gw5fiy85Ewg/0.jpg" alt="Demo" width = "500", height = "350">
+</a>
+</p>
