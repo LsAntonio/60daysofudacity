@@ -626,3 +626,12 @@ Today I learned more about the theory of RL. RL is an area, which allow us to ad
   <img src="https://img.youtube.com/vi/Gw5fiy85Ewg/0.jpg" alt="Demo" width = "500", height = "350">
 </a>
 </p>
+
+# DAY 55 [91.7%] | 60
+* Continuing studying lesson 5 from the DRLND program.
+* Working in the keystone project, adding functions.
+
+__What I learn:__
+<p align = "justify">
+Today I learn about diverse mechanism in Reinforcement Learning. Moreover, I learn about the relationship between states and actions. Where, using the Bellman equations, we can calculate the expected values from the states and actions. Then, using an algorithm, we can determine the optimal policy. However, we must note that, there are many optimum policies. Also, since we can deal with deterministic and stochastic environments, the policies can also have this property. In the case of a  deterministic policy, we have a finite mapping between actions and states. Meanwhile, in the stochastic case, we assign probabilities to each state regarding the action taken. Finally, I am continue working in the keystone project.
+ </p>
