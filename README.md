@@ -635,3 +635,13 @@ __What I learn:__
 <p align = "justify">
 Today I learn about diverse mechanism in Reinforcement Learning. Moreover, I learn about the relationship between states and actions. Where, using the Bellman equations, we can calculate the expected values from the states and actions. Then, using an algorithm, we can determine the optimal policy. However, we must note that, there are many optimum policies. Also, since we can deal with deterministic and stochastic environments, the policies can also have this property. In the case of a  deterministic policy, we have a finite mapping between actions and states. Meanwhile, in the stochastic case, we assign probabilities to each state regarding the action taken. Finally, I am continue working in the keystone project.
  </p>
+
+# DAY 56 [93.3%] | 60
+* Completed code for the first phase of the Keystone Project.
+* Working in writing the blog.
+* Continuing working in the Keystone Project.
+
+__What I learn:__
+<p align = "justify">
+Today I implement the first part of the Keystone Project. In this project I am applying several concepts from the Lessons. The main idea is focused in apply privacy mechanism into the machine learning pipeline. This can be divided into tho pieces: the data and the model. For now, I am focusing in the model. At the same time, I am writing a blog, which contains a better explanation of the implemented procedures.
+</p>
