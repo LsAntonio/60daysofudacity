@@ -645,3 +645,15 @@ __What I learn:__
 <p align = "justify">
 Today I implement the first part of the Keystone Project. In this project I am applying several concepts from the Lessons. The main idea is focused in apply privacy mechanism into the machine learning pipeline. This can be divided into tho pieces: the data and the model. For now, I am focusing in the model. At the same time, I am writing a blog, which contains a better explanation of the implemented procedures.
 </p>
+
+# DAY 57 [95.0%] | 60
+* Continuing with code for the second phase of the Keystone Project.
+* Working in writing the first section of the blog.
+* Updating sections of the blog.
+
+__What I learn:__
+<p align = "justify">
+Today I conclude with code for the first section of the Keystone Project. In this project I am applying several concepts from the Lessons. The main idea is focused in apply privacy mechanism into the machine learning pipeline. This can be divided into tho pieces: the data and the model. For now, I am focusing in the model. At the same time, I am writing the blog, which contains a better explanation of the implemented procedures.
+</p>
+
+![](plots/figure_57d.png)
