@@ -669,3 +669,5 @@ Today I have a very interesting meeting in the sg_latin group. In this opportuni
 </p>
 
 ![](plots/meeting_58d.png)
+
+![](plots/figure_58d.png)
