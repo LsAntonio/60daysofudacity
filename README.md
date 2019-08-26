@@ -657,3 +657,15 @@ Today I conclude with code for the first section of the Keystone Project. In thi
 </p>
 
 ![](plots/figure_57d.png)
+
+# DAY 58 [96.7%] | 60
+* Meeting with the sg_latin group.
+* Updating GitHub projects.
+* Continuing with the Keystone Project.
+
+__What I learn:__
+<p align = "justify">
+Today I have a very interesting meeting in the sg_latin group. In this opportunity, we discussed about Artificial Intelligence in music. Among the different topics, we talk about how to represent music. In particular we explored the histogram representation of music, where we can represent a sound into an image. Also, we talk about classification in music, where different architectures can be used. Next, we discussed the process of music creation. Finally I reorganized the challenge repository and continue writing the blog, for the keystone project.
+</p>
+
+![](plots/meeting_58d.png)
