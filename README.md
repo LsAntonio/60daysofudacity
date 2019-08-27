@@ -678,7 +678,9 @@ Today I have a very interesting meeting in the sg_latin group. In this opportuni
 * Adding plots.
 
 __What I learn:__
+<p align = "justify"> 
 Today, I completed all the functions for the keystone project. I have been working in structuring the blog content. Also, I have write more sections. In this blog, I describe several learned concepts from the Lessons using data sets. Finally, I have added several plots for each example.
+ </p>
 
 ![](plots/figure_59d.png)
 ![](plots/figure.png)
