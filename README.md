@@ -671,3 +671,14 @@ Today I have a very interesting meeting in the sg_latin group. In this opportuni
 ![](plots/meeting_58d.png)
 
 ![](plots/figure_58d.png)
+
+# DAY 59 [98.3%] | 60
+* Completed functions for the keystone project.
+* Writing the blog.
+* Adding plots.
+
+__What I learn:__
+Today, I completed all the functions for the keystone project. I have been working in structuring the blog content. Also, I have write more sections. In this blog, I describe several learned concepts from the Lessons using data sets. Finally, I have added several plots for each example.
+
+![](plots/figure_59d.png)
+![](plots/figure.png)
