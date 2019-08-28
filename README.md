@@ -684,3 +684,39 @@ Today, I completed all the functions for the keystone project. I have been worki
 
 ![](plots/figure_59d.png)
 ![](plots/figure.png)
+
+# DAY 60 [100.0%] | 60
+* Completed the Challenge.
+* Completed the code for the Keystone Project.
+* Completed the blog writing for the Keystone Project.
+* Publishing the blog article: [Privacy Techniques in Deep Learning](http://kapaitech.com/blog/index.php?post/Privacy-Techniques-in-Deep-Learning).
+* Sharing the blog article in the OpenMined slack channel.
+
+__What I learn:__
+<p align = "justify"> 
+Today I completed the challenge. It has been a wonderful learning experience. I have learned a lot of new skills. Moreover, I have learned about an important aspect of Deep Learning: privacy. Privacy is an important area presented in different aspects of science and technology. In the particular case of Deep Learning, as we continue to develop more complex models, it is also important to consider the privacy component of such models. For this, we can use different frameworks, which maintain privacy using deep learning. Among these techniques, we have: Differential Privacy, Federated Learning and Encrypted Federated Learning. Each technique can be used alone or combined to guarantee privacy. We can combine Pytorch alongside an excellent library, which implement these technique and many others called: PySyft. Using PySyft we can add these techniques into our machine learning pipeline. Also, I have completed my Keystone Project: Privacy Techniques in Deep Learning. Finally I would like to express my gratitude towards: <b>Udacity, Facebook and Prof. Andrew Trask</b> for developing the <b>Secure and Private AI Challenge</b> from which I have learned so much.
+</p>
+
+![](plots/figure_60d.png)
+
+# Projects
+This section contains the projects developed during the Challenge. 
+
+|        Project Name      |       Link      |      Lesson     |         Description       |
+|--------------------------|-----------------|-----------------|---------------------------|
+|__Generating Parallel Databases__|![see link](/notebooks/DAY%202%20%5B3.3%25%5D.ipynb)|3|Project from Lesson 1, where a Parallel Database is implemented.|
+|__Evaluating The Privacy Of A Function__|![see link](/notebooks/DAY%204%20%5B6.7%25%5D.ipynb)|4|This project evaluates the privacy of a function using queries.|
+|__Evaluating The Privacy Of A Function on the Iris Data set__|![see link](/notebooks/DAY%205%20%5B8.3%25%5D.ipynb)|4|Evaluates the privacy of functions over the iris data set.|
+|__Basic Differencing Attack__|![see link](/notebooks/DAY%206%20%5B10.0%25%5D.ipynb)|4|Final Project from Lesson 4, where a Basic Differencing Attack.|
+|__Implementing Local Differential Privacy__|![see link](/notebooks/DAY%209%20%5B15.0%25%5D.ipynb)|5|This project implements local differential privacy.|
+|__Exploring Queries__|![see link](/notebooks/DAY%2010%20%5B16.7%25%5D.ipynb)|5|This project applies several queries to a data base.|
+|__Creating a Differentially Private Query__|![see link](/notebooks/DAY%2011%20%5B18.3%25%5D.ipynb)|5|Final Project from Lesson 5, where a Differentially Private Query is applied to a data base.|
+|__Generating Differentially Private Labels for the Digits data set__|![see link](/notebooks/DAY%2032%20%5B53.3%25%5D.ipynb)|6|Final Project from Lesson 6, where DP is applied to generate labels.|
+|__Applying YOLO with CV__|![see link](/notebooks/DAY%2037%20%5B61.7%25%5D.ipynb)|7|Apply YOLO with CV.|
+|__Federated Learning__|![see link](/notebooks/DAY%2038%20%5B63.3%25%5D.ipynb)|7|Implements final project for Lesson 7, where Federated Learning is applied to train a model.|
+|__Securing Federated Learning__|![see link](/notebooks/DAY%2042%20%5B70.0%25%5D.ipynb)|8|Implements final project for Lesson 8, where secure aggregation is added to FL.|
+|__Encrypted Deep Learning__|![see link](/notebooks/DAY%2046%20%5B76.7%25%5D.ipynb)|9|Implements final project for Lesson 9, where encryption is added to Federated Learning.|
+|__Showcase Project: Private-In-bed-Posture-Classification__|![see link](https://github.com/aksht94/UdacityOpenSource/tree/master/Private-In-bed-Posture-Classification)|9|This repository contains the Bed-posture showcase project.|
+|__Using Deep Learning to create images__|https://ewotawa.github.io/spaic_tshirt_gallery/|9|In this project, generative models and transfer learning were applied to create images, see images: 124 to 136.|
+|__Showcase Project:Art Flower Generator__|![see link](https://github.com/aksht94/UdacityOpenSource/tree/master/Antonio)|9|This project implements a program, which applies a generative model to create painting flowers.|
+|__Keystone Project__|http://kapaitech.com/blog/index.php?post/Privacy-Techniques-in-Deep-Learning|9|This link contains the Keystone Project.|
